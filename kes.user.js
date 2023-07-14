@@ -5,6 +5,7 @@
 // @version       2.0.3
 // @description   Kbin Enhancement Suite
 // @author        aclist
+// @match         https://sacredori.net/*
 // @match         https://kbin.social/*
 // @match         https://lab2.kbin.pub/*
 // @match         https://lab3.kbin.pub/*
