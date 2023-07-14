@@ -85,7 +85,8 @@ const funcObj = {
     hideThumbs: hideThumbs,
     navbarIcons: navbarIcons,
     hideSidebar: hideSidebar,
-    initKFA: initKFA
+    initKFA: initKFA,
+    notificationsPanel: notificationsPanel
 };
 function fetchManifest() {
     safeGM("xmlhttpRequest",{
