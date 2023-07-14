@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          KES
+// @name          KES-Oricul
 // @namespace     https://github.com/aclist/
 // @license       MIT
 // @version       2.0.3
