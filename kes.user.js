@@ -50,6 +50,7 @@
 // @require       https://github.com/Oricul/kbin-kes/raw/main/mods/hide-logo.user.js
 // @require       https://github.com/Oricul/kbin-kes/raw/main/mods/hide-thumbs.user.js
 // @require       https://github.com/Oricul/kbin-kes/raw/main/mods/notifications-panel.user.js
+// @require       https://github.com/Oricul/kbin-kes/raw/main/mods/resize-text.user.js
 // @resource      kes_css https://github.com/Oricul/kbin-kes/raw/main/kes.css
 // @resource      kes_layout https://github.com/Oricul/kbin-kes/raw/main/ui.json
 // @downloadURL    https://github.com/Oricul/kbin-scripts/raw/main/kes.user.js
@@ -87,7 +88,8 @@ const funcObj = {
     navbarIcons: navbarIcons,
     hideSidebar: hideSidebar,
     initKFA: initKFA,
-    notificationsPanel: notificationsPanel
+    notificationsPanel: notificationsPanel,
+    textResize: textResize
 };
 function fetchManifest() {
     safeGM("xmlhttpRequest",{
