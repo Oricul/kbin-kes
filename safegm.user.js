@@ -10,7 +10,6 @@ try {
 }
 if (gmPrefix === "GM_") {
 	if (GM_info.scriptHandler === "Greasemonkey"){
-		console.log("Forcing GM to GM. notation")
 		gmPrefix = "GM."
 	}
 }
